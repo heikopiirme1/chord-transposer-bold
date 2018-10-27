@@ -124,7 +124,7 @@ class Chord {
 
   toString(): string {
     if (this.bass) {
-      return this.root + this.suffix + "/" + this.bass;
+      return this.root + this.suffix + "/s" + this.bass;
     } else {
       return this.root + this.suffix;
     }
